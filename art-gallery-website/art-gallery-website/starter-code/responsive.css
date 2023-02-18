@@ -1,0 +1,631 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* styles for tablet devices */
+
+    .box    {
+        width: 100%;
+        background-color: #FCFAF9;
+
+}
+#image-hero-1 {
+    content: url(./assets/tablet/image-hero.jpg);
+  }
+.content    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    transform: translate(166px, -604px);
+    overflow: hidden;
+}
+.h-1 {   
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 65px;
+    width: 339px;
+    height: 130px;
+}
+.p-1 { 
+    font-size: 18px;
+    font-family: 'outfit';
+    font-weight: 300;
+    line-height: 28px;
+    width: 339px;
+    height: 112px;
+    padding-top: 0;
+    padding-right: 0;
+}
+.button-box {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    transform: translate(366px, -625px);
+    
+}
+.content-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.bacground-image-2{
+    display:    flex;
+    flex-direction: row-reverse;
+   
+  }
+  #grid-image {
+    content: url(./assets/tablet/image-grid-1.jpg);
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 900;
+    width: 223px;
+    height: 135px;
+  }
+  p {
+    font-size: 18px;
+    font-family: 'outfit';
+    font-weight: 300;
+    line-height: 28px;
+    
+   
+  }
+  .hero-div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+
+    transform: translate(-5px, -480px);
+  }
+.three  {
+    display: grid;
+    grid-template-columns: 192px 192px 192px 192px;
+    grid-template-rows: 180px 180px 180px 180px;
+    gap: 16px;
+    margin-left: -11px;
+    margin-top: -493px;
+    margin-bottom: 120px;
+}
+
+#grid-t {   
+    content: url(./assets/tablet/image-grid-2.jpg);
+}
+.black-box {
+    
+    margin-top: 10px;
+    height: 513px;
+    grid-row: 2/-3;
+    grid-column: 3 / 5;
+   
+    
+}
+.bacground-image-3 {
+   
+    grid-column: 1 / 3;
+    padding: 0 ;
+  
+   
+    
+}
+.bacground-image-4    {
+    grid-column: 3 / 5;
+  
+}
+.grid-t1 { 
+    content: url(./assets/tablet/image-grid-3.jpg);
+
+ }
+ .black-box-2    { width: 100% ;
+                margin-top: -60px;
+                
+}
+.black-box-2  {
+    background-color: #151515;
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+  }
+
+
+  .box-logo     {
+
+    width: 110.5px;
+    height: 40px;
+    padding-left: 165px;
+    padding-top: 80px;
+  }
+
+  .box-2-p  {
+    font-size: 16px;
+    font-family: 'outfit';
+    color: #FFFFFF;
+    font-weight: 300;
+    padding-left: 32px;
+   
+  }
+
+  .fb   {
+    padding-left: 32px;
+    padding-top: 38px;
+    padding-bottom: 48px;
+  }
+
+  .insta    {
+    padding-left: 20px;
+    padding-top: 38px;
+    padding-bottom: 48px;
+  }
+
+  .twit {
+    padding-left: 20px;
+    padding-top: 38px;
+    padding-bottom: 48px;
+    padding-right: 40px;
+  }
+  #content1::after{
+    content: "\a";
+    white-space: pre;
+}
+#content2::after{
+    content: "\a";
+    white-space: pre;
+}
+
+
+.black-box-location   {
+    background-color: #151515;
+    margin-top: -145px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: flex-start;;
+   
+    
+  }
+
+  .location-h1  {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    color: #FFFFFF;
+    padding-top: 48px;
+    padding-left: 38px; 
+    padding-right: 16px;
+    padding-top: 88px;
+    
+  }
+
+  .location-h2  {
+
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 900;
+    color: #D5966C;
+    padding-left: 16px; 
+    padding-right: 16px;
+    padding-top: 88px;
+    
+  }
+
+  .location-p-1 {
+    font-size: 18px;
+    font-family: 'outfit';
+    line-height: 28px;
+    font-weight: 300;
+    color: #FFFFFF;
+  }
+  
+  .location-p-2 {
+    font-size: 18px;
+    font-family: 'outfit';
+    line-height: 28px;
+    font-weight: 300;
+    color: #FFFFFF;
+    padding-bottom: 56px;
+  }
+
+  .box-2-p-2 {
+
+    font-size: 16px;
+    font-family: 'outfit';
+    color: #151515;
+    font-weight: 300;
+    padding-left: 32px;
+
+  }
+
+  .box-location-gold    {
+
+    background-color: #D5966C;
+    margin-top: -18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .facebook-logo {
+    filter: invert(100%);
+    padding-left: 32px;
+    padding-top: 38px;
+    padding-bottom: 48px;
+  }
+
+  .instagram-logo   {
+    filter: invert(100%);
+    padding-left: 32px;
+    padding-top: 38px;
+    padding-bottom: 48px;
+
+  }
+
+
+  
+  .twitter-logo  {
+    filter: invert(100%);
+    padding-left: 32px;
+    padding-top: 38px;
+    padding-right: 40px;
+    padding-bottom: 48px;
+
+  }
+
+  .background-image-map {
+    width: 100%;
+    content: url(./assets/tablet/image-map.png);
+  }
+  .black-box-location   {
+    background-color: #151515;
+    margin-top: -145px;
+    width: 100%;
+   
+    
+  }
+  
+
+}
+
+
+/* 1024px */
+
+
+
+@media only screen and (min-width: 1024px)     {
+
+
+    .box    {
+        width: 100%;
+        
+        overflow: hidden;
+
+}
+.black {
+    
+    width: 450px;
+   
+    background-color: #151515;
+}
+
+.black-parent   {
+    display: flex;
+}
+
+
+
+
+#image-hero-1 {
+    content: url(./assets/desktop/image-hero.jpg);
+    width: 100%;
+    margin-left:  449px;;
+  }
+.content    {
+   
+}
+.bacground-image {
+    width: 100%;
+}
+.h1-margin  {
+   
+    
+}
+#sp1::after{
+    content: "\a";
+    white-space: pre;
+}
+.h-1 {   
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 88px;
+    width: 514px;
+    height: 174px;
+    background: linear-gradient(to left, black 50%, white 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    z-index: 1;
+    margin-top: 145px;
+    margin-left: -261px;
+}
+.p-1 { 
+    font-size: 18px;
+    font-family: 'outfit';
+    font-weight: 300;
+    line-height: 28px;
+    width: 350px;
+    height: 160px;
+    transform: translate(374px, -270px);
+  
+}
+.button-box {
+  transform: translate(-12px, 15px);
+    
+}
+.button-box-location {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  transform: translate(150px, -586px);
+}
+
+
+.content-2 {
+  margin-left: 160px;
+}
+
+.bacground-image-2{
+    display:    flex;
+    flex-direction: row-reverse;
+    margin-left: 73px;
+
+   
+  }
+  #grid-image {
+    content: url(./assets/desktop/image-grid-1.jpg);
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 900;
+    width: 223px;
+    height: 135px;
+  }
+  p {
+    font-size: 18px;
+    font-family: 'outfit';
+    font-weight: 300;
+    line-height: 28px;
+    
+   
+  }
+  .hero-div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+.three  {
+   display: flex;
+   margin-left: 160px;
+    margin-bottom: 120px;
+}
+
+#grid-t {   
+    content: url(./assets/desktop/image-grid-2.jpg);
+}
+.black-box {
+    margin-top:  262px;
+    margin-left: -343px;
+    width: 348px;
+    height: 490px;
+}
+.bacground-image-3 {
+   
+    
+    
+}
+.bacground-image-4    {
+   
+    
+   
+}
+.image-1    {
+    margin-top: 32px;
+}
+
+.grid-t1 { 
+    content: url(./assets/desktop/image-grid-3.jpg);
+    
+
+ }
+ .black-box-2    { width: 100% ;
+                margin-top: -60px;
+                
+}
+.black-box-2  {
+    background-color: #151515;
+    margin-top: 120px;
+    width: 100%;
+    height: 244px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+    
+  }
+
+
+  .box-logo     {
+
+    padding-left: 110.5;
+    padding-top: 40px;
+    width: 159px;  
+    height: 58px;
+
+  }
+
+  .box-2-p  {
+    font-size: 16px;
+    font-family: 'outfit';
+    color: #FFFFFF;
+    font-weight: 300;
+    padding-left: 140px;
+    width: 430px;
+  }
+
+  .fb   {
+    margin-left: 28px;
+    padding-top: 38px;
+    padding-bottom: 48px;
+  }
+
+  .insta    {
+    padding-left: 20px;
+    padding-top: 38px;
+    padding-bottom: 48px;
+  }
+
+  .twit {
+    padding-left: 20px;
+    padding-top: 38px;
+    padding-bottom: 48px;
+    padding-right: 40px;
+  }
+  #content1::after{
+    content: "\a";
+    white-space: pre;
+}
+#content2::after{
+    content: "\a";
+    white-space: pre;
+}
+
+
+.black-box-location   {
+    background-color: #151515;
+    margin-top: -145px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: flex-start;;
+   
+    
+  }
+
+  .location-h1  {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    color: #FFFFFF;
+    
+    padding-top: 165px;
+    padding-left: 38px; 
+    padding-right: 16px;
+    padding-top: 165px;
+    
+  }
+
+  .location-h2  {
+
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 900;
+    color: #D5966C;
+    padding-left: 16px; 
+    padding-right: 16px;
+    padding-top: 165px;
+    
+  }
+
+  .location-p-1 {
+    font-size: 18px;
+    font-family: 'outfit';
+    line-height: 28px;
+    font-weight: 300;
+    color: #FFFFFF;
+  }
+  
+  .location-p-2 {
+    font-size: 18px;
+    font-family: 'outfit';
+    line-height: 28px;
+    font-weight: 300;
+    color: #FFFFFF;
+    padding-bottom: 56px;
+  }
+
+  .box-2-p-2 {
+
+    font-size: 16px;
+    font-family: 'outfit';
+    color: #151515;
+    font-weight: 300;
+    padding-left: 32px;
+    margin-left: 100px;
+
+  }
+
+  .box-location-gold    {
+
+    background-color: #D5966C;
+    margin-top: -18px;
+    display: flex;
+    height: 244px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .facebook-logo {
+    filter: invert(100%);
+    padding-left: 210px;
+    padding-top: 38px;
+    padding-bottom: 48px;
+  }
+
+  .instagram-logo   {
+    filter: invert(100%);
+    padding-left: 32px;
+    padding-top: 38px;
+    padding-bottom: 48px;
+
+  }
+
+
+  
+  .twitter-logo  {
+    filter: invert(100%);
+    padding-left: 32px;
+    padding-top: 38px;
+    padding-right: 40px;
+    padding-bottom: 48px;
+
+  }
+  .background-image-map {
+    max-width: 100%;
+    content: url(./assets/desktop/image-map.png);
+  }
+  .black-box-location   {
+    background-color: #151515;
+    margin-top: -145px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+   
+    
+  }
+  
+
+}
+
+
+
+
+
